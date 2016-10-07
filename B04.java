@@ -12,17 +12,17 @@ class B04{
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
     }
     
-      if(money>=100000000&&money<400000000){
+      else if(money>=100000000&&money<400000000){
         double tax=money*0.19;
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
       }
     
-      if(money>=400000000&&money<800000000){
+      else if(money>=400000000&&money<800000000){
         double tax=money*0.28;
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
       }
     
-      if(money>=800000000){
+     else  if(money>=800000000){
         double tax=money*0.37;
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
       }
