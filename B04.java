@@ -27,11 +27,11 @@ class B04{
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
       }
   }
-}
+
       public static void main(String [] args) throws IOException{
 
         
                  new B04().input();
       
   }
-  
+}
