@@ -22,7 +22,7 @@ class B04{
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
       }
     
-      if(money>=800000000)){
+      if(money>=800000000){
         double tax=money*0.37;
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
       }
