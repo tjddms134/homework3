@@ -7,22 +7,22 @@ class B04{
     System.out.print("연봉을 원 단위로 입력하세요:");
     double money=s.nextInt();
     
-    if(money<100000000){
+    if(money<10000000){
       double tax=money*0.095;
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
     }
     
-      else if(money>=100000000&&money<400000000){
+      else if(money>=10000000&&money<40000000){
         double tax=money*0.19;
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
       }
     
-      else if(money>=400000000&&money<800000000){
+      else if(money>=40000000&&money<80000000){
         double tax=money*0.28;
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
       }
     
-     else  if(money>=800000000){
+     else  if(money>=80000000){
         double tax=money*0.37;
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
       }
