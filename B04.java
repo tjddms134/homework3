@@ -7,7 +7,7 @@ class B04{
     System.out.print("연봉을 원 단위로 입력하세요:");
     double money=s.nextInt();
     
-    if(money>100000000){
+    if(money<100000000){
       double tax=money*0.095;
         System.out.print("연봉 금액에 대한 소득세는:"+tax);
     }
