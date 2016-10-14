@@ -24,7 +24,7 @@ min_num=num2;
 }
 }
 
-System.out.print("가장큰수는"+max_num+"이고,가장작은수는"+ min_num+"입니다");
+System.out.print("가장큰수는"+this.max_num+"이고,가장작은수는"+ this.min_num+"입니다");
      
      public static void main(String [] args) throws IOException{
 
